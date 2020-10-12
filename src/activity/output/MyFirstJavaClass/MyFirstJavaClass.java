@@ -59,7 +59,7 @@ public class MyFirstJavaClass
     private static void PrintName()
     {
         // Prints a name in the console
-        System.out.println("My name is" + _name);
+        System.out.println("My name is " + _name);
     }
 
     private static void PrintGreetings()
