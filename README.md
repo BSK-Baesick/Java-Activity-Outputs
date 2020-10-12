@@ -3,4 +3,4 @@
  
  This is where I compile my scripts regarding my Java Class.
 
- Check out my scripts at src/activity/output/MyFirstJavaProgram
+ Check out my scripts at src/activity/output
