@@ -12,7 +12,7 @@ package activity.output.MyFirstJavaProgram;
  * </h2>
  *
  * @author Matthew Johannes C. Balubar
- * @version 2020.0.0a2
+ * @version 2020.2.0a2
  * @since 2020-12-10
  *
  * @moduleNumber Module #2

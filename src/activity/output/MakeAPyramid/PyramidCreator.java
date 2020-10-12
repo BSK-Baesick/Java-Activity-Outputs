@@ -14,7 +14,7 @@ package activity.output.MakeAPyramid;
  * </h2>
  *
  * @author Matthew Johannes C. Balubar
- * @version 2020.0.0a1
+ * @version 2020.3.0a1
  * @since 2020-12-10
  *
  * @moduleNumber Module #2
