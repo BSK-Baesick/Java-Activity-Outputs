@@ -6,13 +6,13 @@ package activity.output.MyFirstJavaClass;
  * <h2> a Java program that will display:
  *
  * <p>“Good morning!”</p>
- * <p>“My name is _(your name_”<p/>
+ * <p>“My name is (_your name_)”<p/>
  * <p>“ I studied @ (your school) ”</p>
  *
  * </h2>
  *
  * @author Matthew Johannes C. Balubar
- * @version 2020.0.0a1
+ * @version 2020.0.0a2
  * @since 2020-12-10
  *
  * @moduleNumber Module #2
