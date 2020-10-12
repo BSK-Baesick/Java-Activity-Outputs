@@ -1,4 +1,4 @@
-package activity.output.MyFirstJavaClass;
+package activity.output.MyFirstJavaProgram;
 
 /**
  *
@@ -21,7 +21,7 @@ package activity.output.MyFirstJavaClass;
  *
  */
 
-public class MyFirstJavaClass
+public class MyFirstJavaProgram
 {
 
     // Configuration Parameters
