@@ -21,6 +21,9 @@ package activity.output.MyFirstJavaProgram;
  *
  */
 
+// TODO: Create a method that prints message
+// TODO: Print a greeing,
+
 public class MyFirstJavaProgram
 {
 
@@ -41,19 +44,23 @@ public class MyFirstJavaProgram
     public static void main(String[] args)
     {
         // Executes the PrintGreetings() method
-        PrintGreetings();
+        // PrintGreetings();
 
         // Executes the PrintName() method
-        PrintName();
+        // PrintName();
 
         // Executes the PrintSchoolName() method
-        PrintSchoolName();
+        // PrintSchoolName();
+
+        // Executes the PrintAllMessages() method.
+        // This method is used to avoid the repetition of System.out.println() methods in the script.
+        PrintAllMessages();
     }
 
     private static void PrintSchoolName()
     {
         // Prints a school name in the console
-        System.out.println(_schoolName);
+        System.out.println("I studied at " + _schoolName);
     }
 
     private static void PrintName()
@@ -68,7 +75,14 @@ public class MyFirstJavaProgram
         System.out.println("Good morning!");
     }
 
+    private static void PrintAllMessages()
+    {
+        // Prints all the messages written above in just one line of code
+        System.out.print("Good morning!\nMy name is " + _name + "\nI studied at " + _schoolName);
+    }
+
     /*
+
      * OUTPUT/RESULT
      *
      * "C:\Users\my pc\.jdks\openjdk-15\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar=11457:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\my pc\Documents\MEGA\Projects\Java\JavaActivityOutputs\out\production\Java" activity.output.MyFirstJavaClass.MyFirstJavaClass
@@ -77,5 +91,6 @@ public class MyFirstJavaProgram
      * Cainta Senior High School
      *
      * Process finished with exit code 0
+     *
      */
 }
