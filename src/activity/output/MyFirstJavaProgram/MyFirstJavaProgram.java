@@ -18,10 +18,16 @@ package activity.output.MyFirstJavaProgram;
 public class MyFirstJavaProgram
 {
     /**
-     * Start is called on the frame when a script is enabled just before any of the methods are called the first time.
+     * Main method is called on the frame when the program is enabled just before any of the methods are called the first time.
      * @param args - accepts a single argument of type String arra
      */
     public static void main(String args[])
+    {
+        // Executes the PrintHelloWorld() method
+        PrintHelloWorld();
+    }
+
+    private static void PrintHelloWorld()
     {
         // Prints "Hello World" in the console
         System.out.print("Hello World!");
