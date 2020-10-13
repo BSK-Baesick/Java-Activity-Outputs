@@ -21,14 +21,28 @@ package activity.output.MakeAPyramid;
  * @moduleWeek Week-2
  * @activityNumber Activity #8
  *
+ * <Pseudocode>
+ *
+ *     TODO: Create a method that prints out an asterisks pyramid to the console
+ *     TODO: (ADVANCE) Find a way to avoid the repetition of System.out.print() methods in the script using loops and collections
+ *     TODO: Refactor code
+ *
+ * </Pseudocode>
  */
 
 public class PyramidCreator
 {
 
+    // Configuration Parameters
+
+    /**
+     *
+     * @param _loopIndex - the loop count
+     * @param _asterisksPlaceholder - this is where the next asterisk value is stored and fetched
+     *
+     */
     private static int _loopIndex;
     private static String _asterisksPlaceholder = "*";
-    private static String[] _asterisksPyramid;
 
     /**
      * Main method is called on the frame when the program is enabled just before any of the methods are called the first time.
@@ -92,6 +106,9 @@ public class PyramidCreator
     // VARIATION #4: An intermediate pyramid made with arrays, "for" loops and "for-each" loops.
     private static void CreateIntermediatePyramid()
     {
+
+        // The Asterisks Pyramid Array
+        String[] _asterisksPyramid;
 
         // Initialize the _asteriskPyramid items to have a size of 5
         _asterisksPyramid = new String[5];

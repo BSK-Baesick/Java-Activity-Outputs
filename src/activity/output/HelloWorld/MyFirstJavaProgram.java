@@ -13,6 +13,12 @@ package activity.output.HelloWorld;
  * @moduleWeek Week-2
  * @activityNumber Activity #4
  *
+ * <Pseudocode>
+ *
+ *     TODO: Create a method that prints a "Hello World" message on the console
+ *     TODO: Refactor code
+ *
+ * </Pseudocode>
  */
 
 public class MyFirstJavaProgram

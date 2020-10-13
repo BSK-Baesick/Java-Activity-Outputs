@@ -19,10 +19,18 @@ package activity.output.MyFirstJavaProgram;
  * @moduleWeek Week-2
  * @activityNumber Activity #5
  *
+ * <Pseudocode>
+ *
+ *     TODO: Create a method that prints any message on the console
+ *     TODO: Print a greeting and make an introduction about my name and school
+ *     TODO: Refactor code
+ *
+ * </Pseudocode>
+ *
  */
 
-// TODO: Create a method that prints message
-// TODO: Print a greeing,
+//
+//
 
 public class MyFirstJavaProgram
 {
