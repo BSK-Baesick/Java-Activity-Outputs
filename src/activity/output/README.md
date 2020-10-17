@@ -1,4 +1,4 @@
-# FOLDERS
+# ACTIVITY FOLDERS
 
 ## Java - Module 2
 
@@ -11,3 +11,7 @@ Make A Pyramid - Activity #8
 My Personal Details - Activity #9
 
 ## Java - Module 3
+
+Program Tracing - Activity #6
+
+My Information - Activity #8
