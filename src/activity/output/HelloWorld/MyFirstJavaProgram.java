@@ -40,14 +40,13 @@ public class MyFirstJavaProgram
         System.out.print("Hello World!");
     }
 
-    /*
-
+    /**
+     *
      * OUTPUT/RESULT:
      *
-     * "C:\Users\my pc\.jdks\openjdk-15\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar=11283:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\my pc\Documents\MEGA\Projects\Java\JavaActivityOutputs\out\production\Java" activity.output.MyFirstJavaProgram.MyFirstJavaProgram
+     * "C:\Users\my pc\.jdks\openjdk-15\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar=2735:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\my pc\Documents\MEGA\Projects\Java\JavaActivityOutputs\out\production\Java" activity.output.HelloWorld.MyFirstJavaProgram
      * Hello World!
-     *
      * Process finished with exit code 0
-
+     *
      */
 }
