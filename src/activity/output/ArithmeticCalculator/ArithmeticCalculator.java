@@ -38,6 +38,7 @@ import java.util.Scanner;
  *     TODO: Divide the two integer value
  *     TODO: Multiply the two integer value
  *     TODO: Refactor code
+ *     TODO (OPTIONAL): Catch the "InputMismatchError" in case the user types in another type other than the specified type in the input process
  *
  * </Pseudocode>
  *

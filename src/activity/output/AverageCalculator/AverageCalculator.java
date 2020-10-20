@@ -3,7 +3,7 @@ package activity.output.AverageCalculator;
 /**
  *
  * <h1> ArithmeticCalculator </h1>
- * <h2> Make a Java program that will compute the sum and average of 85, 77, 90, 81, 84. </h2>
+ * <h2> A Java program that will compute the sum and average of 85, 77, 90, 81, 84. </h2>
  *
  * @author Matthew Johannes C. Balubar
  * @version 2020.9.0a1
@@ -28,11 +28,11 @@ public class AverageCalculator
     // Configuration Parameters
     static int[] grades; // array is used to store the numbers
     static int gradeSum; // the total sum of all numbers
-    static int gradeAverage; // the total average of all numbers divided by their overall total count
+    static int gradeAverage; // the total sum of all numbers divided by their overall total count
 
     public static void main(String[] args)
     {
-        // Initialize array
+        // Initialize array. Items are based on the given numbers on the h2
         grades = new int[]{85, 77, 90, 81, 84};
 
         Add();
