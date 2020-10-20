@@ -29,9 +29,6 @@ package activity.output.MyFirstJavaProgram;
  *
  */
 
-//
-//
-
 public class MyFirstJavaProgram
 {
 
