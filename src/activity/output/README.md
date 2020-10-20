@@ -17,3 +17,11 @@ My Personal Details - Activity #9
 Program Tracing - Activity #6
 
 My Information - Activity #8
+
+## Java - Module 4
+
+Arithmetic Calculator - Activity #7
+
+Average Calculator - Activity #8
+
+Area Of Square - Activity #9
