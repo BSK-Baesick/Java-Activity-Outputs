@@ -2,6 +2,8 @@
 
 ## Java - Module 2
 
+Hello Classmate - Activity #1
+
 Hello World - Activity #4
 
 My First Java Program - Activity #5
