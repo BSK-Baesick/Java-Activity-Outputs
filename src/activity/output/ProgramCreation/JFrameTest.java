@@ -88,6 +88,7 @@ public class JFrameTest
      * "C:\Users\my pc\.jdks\openjdk-15\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar=5651:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\my pc\Documents\MEGA\Projects\Java\JavaActivityOutputs\out\production\Java" activity.output.ProgramCreation.JFrameTest
      *
      * THE GUI WINDOW:
+
      ![](https://imgur.com/a/KUfSzzP)
 
      *
