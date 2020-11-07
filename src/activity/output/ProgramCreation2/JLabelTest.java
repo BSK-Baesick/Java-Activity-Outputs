@@ -105,7 +105,7 @@ public class JLabelTest
      * CONSOLE MESSAGE AT THE START OF THE PROGRAM:
      * "C:\Users\my pc\.jdks\openjdk-15\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar=5987:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\my pc\Documents\MEGA\Projects\Java\JavaActivityOutputs\out\production\Java" activity.output.ProgramCreation2.JLabelTest
      *
-     * THE GUI WINDOW: See application at https://imgur.com/a/KUfSzzP
+     * THE GUI WINDOW: See application at https://imgur.com/sFfuB3u
      *
      * CONSOLE MESSAGE AFTER CLOSING THE PROGRAM:
      * "C:\Users\my pc\.jdks\openjdk-15\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar=5987:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\my pc\Documents\MEGA\Projects\Java\JavaActivityOutputs\out\production\Java" activity.output.ProgramCreation2.JLabelTest
