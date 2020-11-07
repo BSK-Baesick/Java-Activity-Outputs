@@ -45,3 +45,9 @@ Area Of Square - Activity #9
 ***
 
 Program Creation - Part #1
+
+## Java - Module 6
+
+***
+
+Program Creation - Part #2
