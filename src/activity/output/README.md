@@ -44,14 +44,14 @@ Area Of Square - Activity #9
 
 ***
 
-Program Creation - Part #1
+Program Creation - Part #1 (LOCATED AT "ProgramCreation" FOLDER)
 
 ## Java - Module 6
 
 ***
 
-Program Creation - Part #2
+Program Creation - Part #2 (LOCATED AT "ProgramCreation2" FOLDER)
 
 ## Java - Module 7
 
-Program Creation - Part #3
+Program Creation - Part #3 (LOCATED AT "ProgramCreation3" FOLDER)
