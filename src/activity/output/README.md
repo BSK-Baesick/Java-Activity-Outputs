@@ -55,3 +55,7 @@ Program Creation - Part #2 (LOCATED AT "ProgramCreation2" FOLDER)
 ## Java - Module 7
 
 Program Creation - Part #3 (LOCATED AT "ProgramCreation3" FOLDER)
+
+## Java - Module 8
+
+Program Creation - Part #4 (LOCATED AT "ProgramCreation4" FOLDER)
