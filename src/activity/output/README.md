@@ -1,3 +1,6 @@
+INSTRUCTIONS: Punta ka sa "Code" (IMAGE BELOW) > "Download ZIP" > Extract mo yung ZIP file kung san nakalagay yung mga project files using any Unzip application (like WinRar - For PC, 7zip for mobile) > Then gamit yung preferred code editor mo, hanapin mo sa file manager yung project files and i-open mo yung bawat scripts (or code) para ma-edit mo yung mga dapat i-edit like name, section, variables, etc.
+![](https://docs.github.com/assets/images/help/repository/code-button.png)
+
 # ACTIVITY FOLDERS
 
 ***
