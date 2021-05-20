@@ -1,163 +1,74 @@
-package activity.output.ArithmeticCalculator;
 
-import java.util.Scanner;
+package activity.output.AverageCalculator;
 
 /**
  *
  * <h1> ArithmeticCalculator </h1>
- * <h2>
- * A java program that will allow the user to input two integer values and the program
- * will print the results of:
- * a. addition
- * b. subtraction
- * c. division
- * d. multiplication
- *
- * Output:
- * Enter value1:
- * Enter value2:
- * The result of addition is 50
- * The result of subtraction is 30
- * The result of division is 4
- * The result of multiplication is 400
- * </h2>
+ * <h2> A Java program that will compute the sum and average of 85, 77, 90, 81, 84. 88, 87, 90 </h2>
  *
  * @author Matthew Johannes C. Balubar
- * @version 2020.8.0a1
- * @since 2020-20-10
- *
- * @moduleNumber Module #4
- * @moduleWeek Week-4
- * @activityNumber Activity #7
+ * @version 2020.1.0a1
+ * @since 2021-20-04
  *
  * <Pseudocode>
  *
- *     TODO: Create a method that will get two integer value from the user input
- *     TODO: Add the two integer value
- *     TODO: Subtract the two integer value
- *     TODO: Divide the two integer value
- *     TODO: Multiply the two integer value
+ *     TODO: Create a method that will compute average of the given numbers on h2 tag
  *     TODO: Refactor code
- *     TODO (OPTIONAL): Catch the "InputMismatchError" in case the user types in another type other than the specified type in the input process
  *
  * </Pseudocode>
  *
  */
 
-public class ArithmeticCalculator
+public class AverageCalculator
 {
 
     // Configuration Parameters
-    static int _userFirstNumber;
-    static int _userSecondNumber;
+    static int[] grades; // array is used to store the numbers
+    static int gradeSum; // the total sum of all numbers
+    static int gradeAverage; // the total sum of all numbers divided by their overall total count
 
-    // Cached Components
-    static Scanner scanner;
-
-    /**
-     * Main method is called on the frame when the program is enabled just before any of the methods are called the first time.
-     * @param args - accepts a single argument of type String array
-     */
     public static void main(String[] args)
     {
-        // Initialize cached components
-        scanner = new Scanner(System.in);
+        // Initialize array. Items are based on the given numbers on the h2
+        grades = new int[]{85, 77, 90, 81, 84, 88, 87, 90};
 
-        // The user will be asked to choose and input two integers
-        PickANumber();
-
-        // Solve. The methods take in two int parameters that our program will be using in solving math.
-        Add(_userFirstNumber, _userSecondNumber);
-        Subtract(_userFirstNumber, _userSecondNumber);
-        Divide(_userFirstNumber, _userSecondNumber);
-        Multiply(_userFirstNumber, _userSecondNumber);
-
-        // We have used the close() method to close the object. It is recommended to close the scanner object once the input is taken.
-        scanner.close();
+        Add();
+        GetAverage();
+        PrintResult();
     }
 
-    private static void PickANumber()
+    private static void PrintResult()
     {
-        // Ask for the 1st user input value.
-        System.out.print("Enter value1: ");
+        // Print the sum of the eight numbers
+        System.out.println("Sum of eight numbers is: " + gradeSum);
 
-        // The input must be of type int
-        _userFirstNumber = scanner.nextInt();
-
-        // Ask for the 2nd user input value.
-        System.out.print("Enter value2: ");
-
-        // The input must be of type int
-        _userSecondNumber = scanner.nextInt();
+        // Print the average of the eight numbers
+        System.out.println("Average of eight numbers is: " + gradeAverage);
     }
 
-    /**
-     * This method adds the two user input integer value
-     * @param value1 - the user's first chosen number
-     * @param value2 - the user's second chosen number
-     */
-    private static void Add(int value1, int value2)
+    private static void GetAverage()
     {
-        // The sum of the 1st and 2nd user input
-        int sum = value1 + value2;
-
-        // Print sum
-        System.out.println("The result of addition is " + sum);
+        // The grade average is equals to the gradeSum divided to the total size of items in the grades array
+        gradeAverage = gradeSum / grades.length;
     }
 
-    /**
-     * This method subtracts the two user input integer value
-     * @param value1 - the user's first chosen number
-     * @param value2 - the user's second chosen number
-     */
-    private static void Subtract(int value1, int value2)
+    private static void Add()
     {
-        // The difference of the 1st and 2nd user input
-        int difference = value1 - value2;
-
-        // Print difference
-        System.out.println("The result of subtraction is " + difference);
-    }
-
-    /**
-     * This method divides the two user input integer value
-     * @param value1 - the user's first chosen number
-     * @param value2 - the user's second chosen number
-     */
-    private static void Divide(int value1, int value2)
-    {
-        // The quotient of the 1st and 2nd user input
-        int quotient = value1 / value2;
-
-        // Print quotient
-        System.out.println("The result of division is " + quotient);
-    }
-
-    /**
-     * This method multiplies the two user input integer value
-     * @param value1 - the user's first chosen number
-     * @param value2 - the user's second chosen number
-     */
-    private static void Multiply(int value1, int value2)
-    {
-        // The product of the 1st and 2nd user input
-        int product = value1 * value2;
-
-        // Print product
-        System.out.println("The result of multiplication is " + product);
+        // For each item in the array, add them to the gradeSum
+        for (int grade : grades)
+        {
+            // Shorthand syntax for gradeSum = gradeSum + grade
+            gradeSum += grade;
+        }
     }
 
     /**
      *
      * OUTPUT/RESULT:
      *
-     * "C:\Users\my pc\.jdks\openjdk-15\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar=8044:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\my pc\Documents\MEGA\Projects\Java\JavaActivityOutputs\out\production\Java" activity.output.ArithmeticCalculator.ArithmeticCalculator
-     * Enter value1: 40
-     * Enter value2: 10
-     * The result of addition is 50
-     * The result of subtraction is 30
-     * The result of division is 4
-     * The result of multiplication is 400
+     * "C:\Users\my pc\.jdks\openjdk-15\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\lib\idea_rt.jar=9372:C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\my pc\Documents\MEGA\Projects\Java\JavaActivityOutputs\out\production\Java" activity.output.AverageCalculator.AverageCalculator
+     * Sum of five numbers is: 682
+     * Average of five numbers is: 85
      *
      * Process finished with exit code 0
      *
